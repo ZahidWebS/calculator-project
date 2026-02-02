@@ -1,0 +1,67 @@
+/* CALCULATOR PROGRAM */
+
+
+
+button {
+    width:85px;
+    height:85px;
+    border-radius: 50px;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding: 25px;
+}
+
+#calculator {
+    font-family: arial;
+    background-color: black;
+    border-radius: 10px;
+    max-width: 500px;
+    max-height: 610px;
+    overflow: hidden;
+}
+
+#display {
+    width:100%;
+    pad: 20px;
+    font-size: 5rem;
+    text-align: center;
+    border: none;
+    background-color:rgba(128, 128, 128, 0.459);
+    color:white;
+    font-weight: bold;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: hsl(0%, 0%, 95%);
+}
+
+
+#cal {
+    background-color: green;
+}
+
+
+
+.op-btn{
+    background-color: orange;
+}
+
+
+
+#clr{
+    background-color: blue;
+}
